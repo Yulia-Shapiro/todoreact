@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+nav .nav-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+nav .nav-wrapper ul{
+  display: flex;
+} 
+
+nav .nav-wrapper ul li{
+  width: 30vw;
+  justify-content: space-around; 
+}
+
+.minWidth{
+  width: 95vw;
+}
+
+#root > div.App > main > div > div.row > div{
+  margin-left: 10px;
+}
+
+.todosinHome{
+  border-bottom: 1px dashed rgb(236, 236, 236);
+  text-align: left;
+  padding: 3px;
+}
+.userTodoCards{
+  max-height: 280px;
+  overflow: auto;
+}
+.lightbox{
+  border: 1px solid rgb(236, 236, 236);
+  background-color:  #828b9e42;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.todoitem{display: flex;
+   padding: 5px;
+   border-radius: 10px;
+   margin: .5rem 0 1rem 0;
+   background-color: #fff;
+   width: 100%;
+}
+
+.todoText{
+   width: 90%;
+}
+.todoBtn{
+   cursor: pointer;
+   margin-left: 10px;
+   font-size: 25pt;
+}
+.todoitem label{
+   margin: 0.2rem 0 0 .5rem;;
+}
+
+
+@media (min-width: 576px) { 
+  .minWidth{
+    width: 95vw;
+  }
+ }
+ /* Medium devices (tablets, 768px and above till next break point) */
+@media (min-width: 768px) { 
+  .minWidth{
+    width: 70vw;
+  }
+ }
+
+ /* Large devices (desktops, 992px and above till next break point) */
+@media (min-width: 992px) {
+  .minWidth{
+    width: 58vw;
+  }
+ }
+
+
+
+
+
